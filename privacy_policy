@@ -16,7 +16,7 @@ By downloading or using Frenzy Stack, you agree to the terms of this Privacy Pol
 
 ### 1.2 Information Collected Automatically
 - **Anonymous Player ID**: A randomly generated UUID (Universally Unique Identifier) created on your device. This ID is not linked to your identity.
-- **Game Progress**: Your current level, highest score, coins earned, and owned in-game items (skins, themes).
+- **Game Progress**: Your current level, highest score, coins earned, energy balance, and owned in-game items (skins, themes).
 - **Device Information**: Device model, operating system version, screen resolution, and language/region settings — used for analytics and to optimize gameplay.
 - **Session Data**: Number of app sessions, session duration, and timezone — used for analytics.
 - **App Version**: The version of Frenzy Stack you are running.
@@ -24,7 +24,7 @@ By downloading or using Frenzy Stack, you agree to the terms of this Privacy Pol
 
 ### 1.3 Advertising Identifiers
 If you have not purchased "Remove Ads":
-- **Google Advertising ID (Android)** / **Apple IDFA (iOS)**: Used by Google AdMob to serve personalized or contextual ads. On iOS 14+, you will be asked for App Tracking Transparency (ATT) permission before the advertising identifier is accessed.
+- **Google Advertising ID (Android)** / **Apple IDFA (iOS)**: Used by Google AdMob to serve personalized or contextual ads. On iOS 14+, you will be asked for App Tracking Transparency (ATT) permission before the advertising identifier is accessed. In the European Economic Area (EEA), UK, and Switzerland, a consent form may be shown before ads are displayed.
 
 ---
 
@@ -62,8 +62,8 @@ Frenzy Stack uses the following third-party services. Each service has its own p
 - **Data Retention**: 60 days (default Firebase Analytics retention).
 
 ### Supabase
-- **Purpose**: Store global leaderboard data and optionally sync player progress.
-- **Data Stored**: Anonymous Player ID, Player Name, Score, Level, Owned items.
+- **Purpose**: Store global leaderboard data, optionally sync player progress, and collect anonymous device analytics.
+- **Data Stored**: Anonymous Player ID, Player Name, Score, Level, Owned items, device model, OS version, language, and session counts.
 - **Privacy Policy**: https://supabase.com/privacy
 - **Data Location**: EU (Frankfurt, Germany) data center.
 
