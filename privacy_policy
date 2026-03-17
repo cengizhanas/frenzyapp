@@ -1,0 +1,175 @@
+# Privacy Policy — Frenzy Stack
+
+**Last Updated: March 2026**
+**Effective Date: March 2026**
+
+This Privacy Policy describes how **Frenzy Stack** ("App", "we", "us", or "our") collects, uses, and shares information when you use our mobile game available on the Apple App Store and Google Play Store.
+
+By downloading or using Frenzy Stack, you agree to the terms of this Privacy Policy.
+
+---
+
+## 1. Information We Collect
+
+### 1.1 Information You Provide
+- **Player Name / Nickname**: An optional display name you choose for the global leaderboard. This name is publicly visible to other players.
+
+### 1.2 Information Collected Automatically
+- **Anonymous Player ID**: A randomly generated UUID (Universally Unique Identifier) created on your device. This ID is not linked to your identity.
+- **Game Progress**: Your current level, highest score, coins earned, and owned in-game items (skins, themes).
+- **Device Information**: Device model, operating system version, screen resolution, and language/region settings — used for analytics and to optimize gameplay.
+- **Session Data**: Number of app sessions, session duration, and timezone — used for analytics.
+- **App Version**: The version of Frenzy Stack you are running.
+- **Usage Analytics**: In-game events such as levels started/completed, game overs, purchases, and feature usage — logged via Firebase Analytics.
+
+### 1.3 Advertising Identifiers
+If you have not purchased "Remove Ads":
+- **Google Advertising ID (Android)** / **Apple IDFA (iOS)**: Used by Google AdMob to serve personalized or contextual ads. On iOS 14+, you will be asked for App Tracking Transparency (ATT) permission before the advertising identifier is accessed.
+
+---
+
+## 2. How We Use Your Information
+
+We use the collected information for the following purposes:
+
+| Purpose | Data Used |
+|---|---|
+| Display global leaderboard | Player ID, Player Name, Score |
+| Sync game progress across reinstalls | Player ID, Level, Coins, Owned items |
+| Serve advertisements | Advertising ID (if ads not removed) |
+| Analyze gameplay to improve the game | Anonymous analytics events |
+| Provide in-app purchases | Handled entirely by App Store / Play Store |
+| Crash reporting and debugging | Device info, App version |
+
+**We do not sell, rent, or trade your personal information to any third party.**
+
+---
+
+## 3. Third-Party Services
+
+Frenzy Stack uses the following third-party services. Each service has its own privacy policy:
+
+### Google AdMob
+- **Purpose**: Display banner ads, rewarded video ads, and interstitial ads.
+- **Data Collected**: Advertising identifiers, IP address, device information.
+- **Privacy Policy**: https://policies.google.com/privacy
+- **Opt-Out**: Purchase "Remove Ads" within the app, or reset your Advertising ID in device settings.
+
+### Firebase Analytics (Google)
+- **Purpose**: Understand how players interact with the game; improve features.
+- **Data Collected**: Anonymous usage events, device information, app version.
+- **Privacy Policy**: https://firebase.google.com/support/privacy
+- **Data Retention**: 60 days (default Firebase Analytics retention).
+
+### Supabase
+- **Purpose**: Store global leaderboard data and optionally sync player progress.
+- **Data Stored**: Anonymous Player ID, Player Name, Score, Level, Owned items.
+- **Privacy Policy**: https://supabase.com/privacy
+- **Data Location**: EU (Frankfurt, Germany) data center.
+
+### Google Play Billing / Apple In-App Purchase
+- **Purpose**: Process in-app purchases (Remove Ads, Coin Packs, VIP Bundle).
+- **Data Handled**: Entirely by Google / Apple. We do not receive or store your payment information.
+- **Google Privacy Policy**: https://policies.google.com/privacy
+- **Apple Privacy Policy**: https://www.apple.com/legal/privacy
+
+---
+
+## 4. Data Retention
+
+| Data Type | Retention Period |
+|---|---|
+| Leaderboard entries (Supabase) | Until you request deletion |
+| Game progress (Supabase) | Until you request deletion |
+| Analytics events (Firebase) | 60 days |
+| Local device data (SharedPreferences) | Until app is uninstalled |
+
+---
+
+## 5. Children's Privacy (COPPA)
+
+Frenzy Stack is **not directed at children under the age of 13**. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at **cengizhanas@gmail.com** and we will promptly delete such information.
+
+---
+
+## 6. Your Rights (GDPR — European Users)
+
+If you are located in the European Economic Area (EEA), you have the following rights regarding your personal data:
+
+- **Right of Access**: Request a copy of data we hold about you.
+- **Right to Rectification**: Request correction of inaccurate data.
+- **Right to Erasure**: Request deletion of your data ("right to be forgotten").
+- **Right to Restriction**: Request restriction of processing.
+- **Right to Data Portability**: Request your data in a portable format.
+- **Right to Object**: Object to processing of your data.
+
+To exercise any of these rights, contact us at: **cengizhanas@gmail.com**
+
+We will respond within 30 days.
+
+---
+
+## 7. Your Rights (CCPA — California Users)
+
+California residents have the right to:
+- Know what personal information is collected about them.
+- Know whether their personal information is sold or disclosed and to whom.
+- Opt out of the sale of their personal information.
+- Request deletion of their personal information.
+- Not be discriminated against for exercising their privacy rights.
+
+**We do not sell personal information.** To exercise your rights, contact: **cengizhanas@gmail.com**
+
+---
+
+## 8. Data Security
+
+We implement reasonable technical and organizational measures to protect your data from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is 100% secure.
+
+Measures include:
+- HTTPS/TLS encryption for all data in transit.
+- Anonymous identifiers — no registration or login required.
+- Row-level security policies on our Supabase database.
+
+---
+
+## 9. International Data Transfers
+
+Your information may be transferred to and processed in countries other than your country of residence (including the United States and Germany, where Firebase and Supabase servers are located). These countries may have different data protection laws than your home country.
+
+By using the app, you consent to such transfers.
+
+---
+
+## 10. Advertising Choices
+
+### Personalized Ads
+AdMob may show personalized ads based on your interests. You can opt out by:
+- **iOS**: Settings → Privacy & Security → Tracking → disable for Frenzy Stack.
+- **Android**: Settings → Google → Ads → Delete advertising ID.
+- **In-App**: Purchase "Remove Ads" to remove all advertisements.
+
+### ATT (App Tracking Transparency — iOS 14+)
+On iOS 14 and later, we request your permission to track across apps and websites. You can change this permission at any time in iOS Settings.
+
+---
+
+## 11. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this policy. Continued use of the app after any changes constitutes acceptance of the new policy.
+
+---
+
+## 12. Contact Us
+
+If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:
+
+**Developer**: Cengizhan Aş
+**Email**: cengizhanas@gmail.com
+**App Name**: Frenzy Stack
+
+We will respond to all inquiries within **72 hours**.
+
+---
+
+*This privacy policy was prepared for Frenzy Stack and complies with the requirements of the Apple App Store, Google Play Store, GDPR, COPPA, and CCPA.*
